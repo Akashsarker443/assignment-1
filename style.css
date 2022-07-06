@@ -1,163 +1,220 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
-.banner{
-    background-image: url(images/skynews-india-flood-climate_5808490.jpg);
-    height: 580px;
-    background-position: center;
-    background-size: cover;
-    
-    background-repeat: no-repeat;
-    margin-bottom: 90px;
-    
-    
+.banner {
+  background-image: url(images/skynews-india-flood-climate_5808490.jpg);
+  height: 580px;
+  background-position: center;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  margin-bottom: 90px;
 }
-.banner h1{
-    color: white;
-    text-align: center;
-    font-size: 60px;
+.banner h1 {
+  color: white;
+  text-align: center;
+  font-size: 60px;
 }
-.banner p{
-    color: #ADD8E6;
-    text-align: center;
-    font-weight: 700;
-    margin-top: -10px;
+.banner p {
+  color: #add8e6;
+  text-align: center;
+  font-weight: 700;
+  margin-top: -10px;
 }
 
-.banner-text{
-    padding-top: 130px;
+.banner-text {
+  padding-top: 130px;
 }
-button{
-    margin: auto;
-    display: block;
-    padding: 15px 25px;
-    background-color: #ff5349;
-    color: white;
-    border: none;
-    font-weight: 700;
-    font-size: 17px;
-    border-radius: 7px;
-    margin-top: 30px;
+.btn {
+  margin: auto;
+  display: block;
+  padding: 15px 25px;
+  background-color: #ff5349;
+  color: white;
+  border: none;
+  font-weight: 700;
+  font-size: 17px;
+  border-radius: 7px;
+  margin-top: 30px;
 }
-.amount-text{
-    text-align: center;
+.btn:hover {
+  background-color: #5fafc9;
 }
-.amount-text h1{
-    font-size: 40px;
-    margin-bottom: -5;
-    
+.amount-text {
+  text-align: center;
 }
-.amount-text p{
-    line-height: 25px;
-    color: #20B2AA;
-    
+.amount-text h1 {
+  font-size: 40px;
+  margin-bottom: -5;
 }
-.amount-item{
-    
-    height: 110px;
-    display: flex;
-    margin: 40px 270px;
-    justify-content: space-between;
+.amount-text p {
+  line-height: 25px;
+  color: #20b2aa;
 }
-.amount-item1{
-    width: 130px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    background-color: #E0FFFF;
+.amount-item {
+  height: 110px;
+  display: flex;
+  margin: 40px 270px;
+  justify-content: space-between;
 }
-.amount-item1 h1{
-    color: #808080;
-    font-weight: bold;
-}
-.amount-item1:nth-child(2){
-    background-color: #ffb7c5;
-    border: 2px solid red;
-}
-.donation-link p{
-    text-align: center;
-    border-bottom: 1px solid gray;
-    margin: 0 270px;
-    padding-bottom: 10px;
-    color: gray;
-} 
-#plan{
-    text-align: center;
-    font-size: 50px;
-    margin-top: 100px;
-}
-#plan-para{
-    line-height: 25px;
-    text-align: center;
-    margin-top: -10px;
+.amount-item1 {
+  width: 130px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  background-color: #e0ffff;
 }
-.project{
-    
-    height: 270px;
-    display: flex;
-    margin: 40px 130px;
-    justify-content: space-between;
-    padding-bottom: 130px;
+.amount-item1 h1 {
+  color: #808080;
+  font-weight: bold;
 }
-.project-item1{
-    width: 280px;
-    height: 100%;
-    padding: 55px 20px 0px 20px;
+.amount-item1:nth-child(2) {
+  background-color: #ffb7c5;
+  border: 2px solid red;
 }
-.project-item1 p{
-    text-align: justify;
+.donation-link p {
+  text-align: center;
+  border-bottom: 1px solid gray;
+  margin: 0 270px;
+  padding-bottom: 10px;
+  color: gray;
 }
-#colour-1{
-    background-color: #FFC0CB;
-
-
+#plan {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 100px;
+}
+#plan-para {
+  line-height: 25px;
+  text-align: center;
+  margin-top: -10px;
+}
+.project {
+  height: 270px;
+  display: flex;
+  margin: 40px 130px;
+  justify-content: space-between;
+  padding-bottom: 130px;
+}
+.project-item1 {
+  width: 280px;
+  height: 100%;
+  padding: 55px 20px 0px 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+.project-item1 p {
+  text-align: justify;
+}
+#colour-1 {
+  background-color: #ffc0cb;
 }
 
-#colour-2{
-    background-color: #E0FFFF;
-    
-
+#colour-2 {
+  background-color: #e0ffff;
 }
 
-#colour-3{
-    background-color: #FAF0E6;
-
+#colour-3 {
+  background-color: #faf0e6;
 }
-.about{
-   
-    height: 550px;
-    margin: 0 100px;
-    display: flex;
-    
-    
-
+.about {
+  height: 455px;
+  margin: 0 130px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
 }
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
-p{
-    text-align: center;
-    margin-bottom: 20px;
+.discription {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: gray;
 }
-.about-text{
-    width: 50%;
-    background-color: #ADD8E6;
-}
-
-
-.about-text h1{
-    text-align: center;
-    background-color: #761f8c;
-    padding: 10px 20px 10px 10px ;
-    margin-top: -1px;
-    border:2px solid #ffb7c5;
-    color: white;
-    
-    
+.about-text {
+  width: 400px;
+  background-color: #add8e6;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #ffb7c5;
 }
 
+.about-text h1 {
+  text-align: center;
+  background-color: #761f8c;
+  padding: 10px 20px 10px 10px;
+  margin-top: -1px;
+  border: 2px solid #ffb7c5;
+  color: white;
+}
+.about-text p {
+  padding-left: 20px;
+  margin-bottom: 20px;
+
+  /* border-bottom: 1px solid gray; */
+}
+.about-text p:hover {
+  color: #ff5349;
+}
+a {
+  display: block;
+  margin: 30px 120px;
+  text-decoration: none;
+  padding: 15px 15px;
+  color: white;
+  background-color: #761f8c;
+  border: 1px solid skyblue;
+  border-radius: 8px;
+}
+a:hover {
+  background-color: #ff5349;
+  border: none;
+}
+.update {
+  margin-top: 130px;
+  margin-bottom: 200px;
+}
+.update-box {
+  background-color: #add8e6;
+  height: 180px;
+  width: 720px;
+  display: block;
+  margin: auto;
+}
+.update-text {
+  margin-bottom: 30px;
+}
+input {
+  margin-left: 200px;
+  margin-top: 75px;
+  padding: 10px 55px 10px 10px;
+  border: none;
+  outline: none;
+}
+button {
+  padding: 10px 30px;
+  background-color: #ff5349;
+  color: white;
+  margin-left: -4px;
+  border: none;
+}
+button:hover {
+  background-color: #00008b;
+  font-weight: bold;
+}
+footer {
+  background-color: black;
+  height: 150px;
+  padding-top: 10px;
+}
+footer h1 {
+  color: #5fafc9;
+}
+footer p {
+  color: gray;
+  text-align: center;
+}
